@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/welcome"
+    tools:context=".questions.AgeQuestion">
+
+    <TextView
+        android:id="@+id/age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginEnd="66dp"
+        android:layout_marginLeft="66dp"
+        android:layout_marginRight="66dp"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/age_question"
+        android:textAlignment="center"
+        android:textColor="@color/blackish"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/gridLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <GridLayout
+
+        android:id="@+id/gridLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:columnCount="2"
+        android:layout="@id/age"
+        android:rowCount="2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/age">
+
+
+        <FrameLayout>
+
+
+            <ImageButton
+                android:id="@+id/child"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/Transparent"
+                android:src="@drawable/children1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="30dp"
+                android:clickable="false"
+                android:text="@string/child"
+                android:textAlignment="center"
+                android:textColor="@color/blackish"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:fontFamily="" />
+
+
+        </FrameLayout>
+
+
+        <FrameLayout>
+
+            <ImageButton
+                android:id="@+id/adult"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/Transparent"
+                android:src="@drawable/adultss" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="45dp"
+                android:layout_marginStart="45dp"
+                android:layout_marginTop="35dp"
+                android:clickable="false"
+                android:text="@string/adult"
+                android:textAlignment="center"
+                android:textColor="@color/blackish"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:fontFamily=""
+
+                />
+
+        </FrameLayout>
+
+
+        <FrameLayout>
+
+            <ImageButton
+                android:id="@+id/teenager"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="30dp"
+                android:background="@color/Transparent"
+                android:src="@drawable/teen" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="0dp"
+                android:clickable="false"
+                android:text="@string/teen"
+                android:textAlignment="center"
+                android:textColor="@color/blackish"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:fontFamily=""
+
+                />
+
+        </FrameLayout>
+
+
+        <FrameLayout
+            android:layout_width="129dp"
+            android:layout_height="155dp">
+
+            <ImageButton
+                android:id="@+id/elderly"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="30dp"
+                android:background="@color/Transparent"
+                android:src="@drawable/old"
+                android:text="@string/elderly" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="15dp"
+                android:layout_marginStart="15dp"
+                android:clickable="false"
+                android:text="@string/elderly"
+                android:textAlignment="center"
+                android:textColor="@color/blackish"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                app:fontFamily=""
+
+
+                />
+
+        </FrameLayout>
+
+
+    </GridLayout>
+</android.support.constraint.ConstraintLayout>

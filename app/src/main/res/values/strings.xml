@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">Gifty</string>
+    <string name="welcome">Welcome to Gifty</string>
+    <string name="button_start">Find a gift</string>
+
+    <!-- Strings for the interests.-->
+
+    <string name="personality_q">What best describes the recipient?</string>
+    <string name="p1">Sports enthusiast</string>
+    <string name="p2">Arts and crafts lover</string>
+    <string name="p3">Geeky / games lover</string>
+    <string name="p4">Tech and gadget lover</string>
+    <string name="p5">Foodie/Aspiring Chef</string>
+    <string name="p6">Style/makeup savvy</string>
+    <string name="p7">Music lover</string>
+    <string name="p8">Outdoors/ Nature lover</string>
+
+    <!-- Strings for the budget-->
+    <string name="budget_question">What is the budget for the gift?</string>
+    <string name="price1"> 0  — 10 £</string>
+    <string name="price2"> 10 — 20 £</string>
+    <string name="price3"> 20 — 50 £</string>
+    <string name="price4"> 50 — 100 £</string>
+    <string name="price5"> 100 + £</string>
+
+    <!-- Strings for the gender.-->
+    <string name="gender_question">What is the gender of the recipient ?</string>
+    <string name="female">Female</string>
+    <string name="male">Male</string>
+
+    <!-- Strings for the age.-->
+    <string name="age_question">What is the age group of the recipient?</string>
+    <string name="child">Child</string>
+    <string name="teen">Teenager</string>
+    <string name="adult">Adult</string>
+    <string name="elderly">Older Adult</string>
+
+    <!-- Strings for register/login.-->
+    <string name="hint_name">Name</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="text_login">Login</string>
+    <string name="text_register">Register</string>
+    <string name="error_message_1">Please, enter full name</string>
+    <string name="error_message_2">Please, enter valid email</string>
+    <string name="error_message_3">Please, enter password</string>
+    <string name="success_message">Registration Successful</string>
+    <string name="text_not_member">No account yet? Create one</string>
+    <string name="text_already_member">Already a member? Login</string>
+    <string name="error_email_exists">Email Already Exists</string>
+    <string name="error_password_match">Password Does Not Match</string>
+    <string name="error_valid_email_password">Wrong Email or Password</string>
+
+    <!-- Strings for buttons-->
+    <string name="info">Show Information</string>
+    <string name="find">Find a Gift</string>
+    <string name="giftss">Here are some gift ideas: </string>
+
+    <string name="info_string">Gifty is a simple gift suggestion mobile application that allows you
+    to find an idea for a gift, based on a few simple questions regarding the receiver. The suggestions
+        that Gifty provides are based on research conducted using various resources and based on prices
+        within the UK. The gifts are appropriate for any occasion and  are aimed to suit any budget.
+        In order to find the suggestions online simply copy and paste the suggestion in a search engine.
+
+    </string>
+
+    <string name="select_date">Select the date of the occasion:</string>
+    <string name="info_event">Input the details about the event below: </string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="event_button">Add Event</string>
+    <string name="exit">Exit Gifty</string>
+
+
+</resources>

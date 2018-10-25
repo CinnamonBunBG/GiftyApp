@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/welcome"
+    tools:context=".questions.PersonalityQuestion">
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/question_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/personality_q"
+            android:textAlignment="center"
+            android:textColor="@color/Black"
+            android:textSize="30sp"
+            android:textStyle="bold"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <RadioGroup
+            android:id="@+id/personality_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/question_text_view"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_marginBottom="1dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/question_text_view">
+
+            <RadioButton
+                android:id="@+id/active"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@android:drawable/btn_radio"
+                android:text="@string/p1"
+                android:textColor="@color/Black"
+                android:textSize="18sp"
+                android:textStyle="bold"
+
+                />
+
+            <RadioButton
+                android:id="@+id/artsy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@android:drawable/btn_radio"
+                android:text="@string/p2"
+                android:textColor="@color/Black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/geeky"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@android:drawable/btn_radio"
+                android:text="@string/p3"
+                android:textColor="@color/Black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/techy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@android:drawable/btn_radio"
+                android:text="@string/p4"
+                android:textColor="@color/Black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/foodie"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@android:drawable/btn_radio"
+                android:text="@string/p5"
+                android:textColor="@color/Black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/makeup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@android:drawable/btn_radio"
+                android:text="@string/p6"
+                android:textColor="@color/Black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/musical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@android:drawable/btn_radio"
+                android:text="@string/p7"
+                android:textColor="@color/Black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/outdoors"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@android:drawable/btn_radio"
+                android:text="@string/p8"
+                android:textColor="@color/Black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </RadioGroup>
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

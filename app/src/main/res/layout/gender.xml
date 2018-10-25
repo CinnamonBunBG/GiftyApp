@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/welcome"
+    tools:context=".questions.GenderQuestion">
+
+    <TextView
+        android:id="@+id/choose_gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="380dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/gender_question"
+        android:textAlignment="center"
+        android:textColor="@color/Black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <FrameLayout
+        android:id="@+id/frameLayout2"
+        android:layout_width="116dp"
+        android:layout_height="135dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/frameLayout"
+        app:layout_constraintHorizontal_bias="0.575"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/choose_gender"
+        app:layout_constraintVertical_bias="0.315">
+
+        <ImageButton
+            android:id="@+id/female"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginStart="20dp"
+            android:background="@color/Transparent"
+            android:src="@drawable/female"
+
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="50dp"
+            android:clickable="false"
+            android:text="@string/female"
+            android:textAlignment="center"
+            android:textColor="@color/Black"
+            android:textSize="24sp"
+            android:textStyle="bold"
+
+            />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="132dp"
+        android:layout_height="133dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/frameLayout2"
+        app:layout_constraintTop_toBottomOf="@+id/choose_gender"
+        app:layout_constraintVertical_bias="0.317">
+
+        <ImageButton
+            android:id="@+id/male"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginStart="20dp"
+            android:background="@color/Transparent"
+            android:src="@drawable/male" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="50dp"
+            android:clickable="false"
+            android:text="@string/male"
+            android:textAlignment="center"
+            android:textColor="@color/Black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </FrameLayout>
+
+
+</android.support.constraint.ConstraintLayout>
+
